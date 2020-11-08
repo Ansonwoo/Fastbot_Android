@@ -24,7 +24,7 @@ adb push monkeyq.jar /sdcard
 ### Run Fastbot with shell command
 `
 adb -s device_vendor_id shell CLASSPATH=/sdcard/monkeyq.jar:/sdcard/framework.jar exec app_process /system/bin
-com.android.commands.monkey.Monkey -p package_name --agent robot --running-minutes duration(s) --throttle delay(ms) -v -v
+com.android.commands.monkey.Monkey -p package_name --agent robot --running-minutes duration(min) --throttle delay(ms) -v -v
 `
 
 #### required parameters
