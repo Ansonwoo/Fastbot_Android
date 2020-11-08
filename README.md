@@ -2,6 +2,7 @@
 
 ## Introduction
 > Fastbot is developed based on Google Monkey, combining machine learning and reinforcement learning tools to serve as a stability-targeted testing tool.
+> https://github.com/bytedance/Fastbot_Android
 
 ## Features
 * Fastbot is compatible with multiple Android OS systems, including original Android, Android 5-11 and a variation of modified Andriod-based system by domestic manufacturers.
