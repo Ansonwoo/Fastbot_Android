@@ -4,6 +4,8 @@
 > Fastbot is developed based on Google Monkey, combining machine learning and reinforcement learning tools to serve as a stability-targeted testing tool.
 > https://github.com/bytedance/Fastbot_Android
 
+> ICSE2020/AST paper: https://2020.icse-conferences.org/details/ast-2020-papers/25/Fastbot-A-Multi-Agent-Model-Based-Test-Generation-System
+
 ## Features
 * Fastbot is compatible with multiple Android OS systems, including original Android, Android 5-11 and a variation of modified Andriod-based system by domestic manufacturers.
 * Inherited from original Monkey, Fastbot allows for fast action insertion as high as 12 actions per second.
@@ -32,7 +34,7 @@ com.android.commands.monkey.Monkey -p package_name --agent robot --running-minut
 
 ```
 -s device_vendor_id # if multiple devices allowed, this parameter is needed; otherwise just optional
--p package_name # app package name under test
+-p package_name # app package name under test, the package name for the app under test can be acquired by "adb shell pm list package", once the device is ensured for connection by "adb devices"
 --agent robot # strategy selected for testing, no need to modify
 --running-minutes duration # total amount time for testing
 --throttle delay # time lag between actions
